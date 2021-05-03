@@ -9,9 +9,9 @@ If you're using more than one MiSTer on the same network there are multiple file
 
 ## Details
 The scripts `linux_p1.sh` and `linux_p2.sh` do the work. 3 files are copied from the `/media/fat/linux` directory to the rootfs file system.
-`u-boot.txt` - sets the MAC address
-`hostname` - sets the hostname
-`hosts` - sets DNS for localhost
+- `u-boot.txt` - sets the MAC address
+- `hostname` - sets the hostname
+- `hosts` - sets DNS for localhost
 
 ## Other Considerations
 - The MAC addresses I used contain proper encoding for the initial bytes. If you want to extend this script to P3 etc. be sure to just change the last few bytes.
