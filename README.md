@@ -1,5 +1,5 @@
 # Multi MiSTer
-If you're using more than one MiSTer on the same network there are multiple files that need to be changed. This quick script and support files set a MiSTer as `MiSTer-P1` or `MiSTer-P2` - as in Player 1 or 2.
+If you're using more than one MiSTer on the same network there are multiple files that need to be changed to access your MiSTers over the network. This quick script and support files set a MiSTer as `MiSTer-P1` (Player 1) or `MiSTer-P2` (Player 2).
 
 ## Installation
 - Download this repository as a ZIP.
