@@ -5,9 +5,9 @@ echo "Remounting root filesystem as read-write..."
 mount | grep "on / .*[(,]ro[,$]" -q && RO_ROOT="true"
 [ "${RO_ROOT}" == "true" ] && mount / -o remount,rw
 echo "Copying identity files..."
-cp /media/fat/linux/hosts_p2 /etc/hosts
-cp /media/fat/linux/hostname_p2 /etc/hostname
-cp /media/fat/linux/u-boot.txt_p2 /media/fat/linux/u-boot.txt
+cp /media/fat/linux/hosts_p4 /etc/hosts
+cp /media/fat/linux/hostname_p4 /etc/hostname
+cp /media/fat/linux/u-boot.txt_p4 /media/fat/linux/u-boot.txt
 echo "Remounting root filesystem as read-only..."
 sync
 [ "${RO_ROOT}" == "true" ] && mount / -o remount,ro
