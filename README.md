@@ -4,7 +4,7 @@ If you're using more than one MiSTer on the same network there are multiple file
 ## Installation
 - Download this repository as a ZIP.
 - Extract to `/media/fat/` on your MiSTer.
-- Run `linux_p1` or `linux_p2` etc. from your MiSTer.
+- Run `linux_p1`, `linux_p2`, etc. from your MiSTer.
 - The script should reboot for you. Your MiSTer will startup in its new configuration.
 
 ## Details
